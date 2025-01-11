@@ -1,0 +1,670 @@
+    .requ{
+        background-color: black;
+        color: white;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+
+        transition: opacity 0.5s ;
+    }
+    .requ:hover{
+        opacity: 0.4 ;
+    }
+    .requ:active{
+        color: aqua;
+    }
+
+ .amazon{
+        color: rgb(0, 113, 133);
+        margin-top: 25px;
+        cursor: pointer;
+        margin-bottom: 0;
+        transition: opacity 0.7s, color 0.6s;
+    }
+    .amazon:hover{
+        opacity: 0.6;
+    }
+    .amazon:active{
+        color: rgb(255,164,28);
+
+    }
+
+
+
+    .nike{
+        font-size: x-large;
+        font: bolder;
+        font-weight: 500px;
+        margin-top: 0;
+        margin-bottom: 0;
+        cursor: pointer;
+
+    }
+
+
+
+    .stock{
+        color: rgb(0,118, 0);
+        font-size: large;
+        font: bold;
+        cursor: pointer;
+        margin-top: 0;
+        transition: opacity 0.7s, color 0.5s;
+
+    }
+    .stock:hover{
+        opacity: 0.8;
+    }
+    .stock:active{
+        color:rgb(5, 26, 5) ;
+    }
+
+
+
+
+
+
+    .free{
+        font-size: large;
+        font-weight: 250;
+        cursor: pointer;
+    }
+
+    .buyn{
+        background-color: rgb(255,164,28);
+        color: rgb(19, 18, 18);
+        width: 180px;
+        height: 45px;
+        cursor: pointer;
+        border-radius: 40px;
+        border: none;
+        cursor: pointer;
+
+        transition: opacity 0.75s, active 0.5s;
+    }
+    .buyn:hover{
+        opacity: 0.8;
+    }
+    .buyn:active{
+        color: burlywood;
+    }
+   
+
+    .cart {
+        background-color: rgb(255, 216, 20);
+        color: rgb(19, 18, 18);
+        width: 180px;
+        height: 45px;
+        cursor: pointer;
+        border-radius: 40px;
+        border: none;
+        cursor: pointer;
+        transition: opacity 0.6s,
+        color 0.5s;
+    }
+    .cart:hover{
+        opacity: 0.8;
+    }
+    .cart:active{
+        color: rgb(111, 91, 10);
+    }
+
+
+
+
+    .sign-up {
+        background-color: rgb(46, 164, 79);
+        color: white;
+        width: 90px;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .Gets {
+        background-color: rgb(121, 82, 179);
+        border: none;
+        color: whitesmoke;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 10px;
+        font-size: large;
+        cursor: pointer;
+
+    }
+
+    .download {
+        background-color: rgb(108, 117 125);
+        width: 125px;
+        height: 40px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-color: rgb(161, 156, 156);
+        cursor: pointer;
+
+    }
+
+    .apply {
+        background-color: rgb(10, 102, 194);
+        width: 310px;
+        height: 45px;
+        border: none;
+        border-radius: 40px;
+        color: whitesmoke;
+        font-size: large;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .save-bttn {
+        background-color: white;
+        color: rgb(10, 102, 194);
+        border: 1px solid rgb(10, 102, 194);
+        border-radius: 40px;
+        width: 80px;
+        height: 40px;
+        font-size: large;
+        cursor: pointer;
+    }
+    .new{
+        color: rgb(183, 51, 51);
+        text-align: center;
+        margin-bottom: 0;
+        font-family: arial;
+    }
+    .mac{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-family: arial;
+    }
+    .supe{
+        text-align: center;
+        font-size: 35px;
+        font-weight: 500;
+        margin-top: 0px;
+        margin-bottom: 0;
+        font-family: arial;
+    }
+    .from{
+        text-align: center;
+        font-weight: 200;
+        color: rgb(121, 118, 118);
+        margin-top:0;
+        margin-bottom: 0;
+        font-family: arial;
+    }
+    .buy{
+        color: white;
+        background-color: rgb(51, 89, 203);
+        border-radius: 40px;
+        margin-top: 0;
+        margin-left: 48%;
+        width: 45px;
+        font-family: arial;
+
+        transition: opacity 0.5s, color 0.6s;
+    }
+
+    .buy:hover{
+        opacity: 0.63;
+    }
+    .buy:active{
+        color: rgb(65, 103, 187);
+    }
+
+    .USD{
+        text-align: center;
+        font-family: Arial;
+        font-size: larger;
+        font-weight: 200;
+        font: bolder;
+        margin-bottom: 0;
+
+    }
+    .amount{
+        color: rgb(122, 120, 120);
+        margin-left: 3px;
+        font-family: Arial;
+    }
+    .today{
+        text-align: center;
+        font-family: arial;
+        color: rgb(43, 142, 11);
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+  .After{
+    text-align: center;
+    color: rgb(122, 120, 120);
+    margin-top: 0;
+    font-family: arial;
+
+  }
+  .after-sp{
+    color: rgb(193, 63, 63);
+
+  }
+
+
+  .bsquare{
+    width: 200px;
+    border-radius: 50px;
+}
+.square{
+    width: 200px;
+    margin-left: 50px;
+}
+.round{
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.search{
+    width: 210px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: medium;
+    box-shadow: 40px;
+    padding-left: 10px;
+
+  }
+
+  .goog{
+    width: 320px;
+    height: 30px;
+    border-radius: 35px;
+    padding-left: 20px;
+    font-size: medium;
+    border: 1px solid grey;
+  }
+  .emai{
+    width: 320px;
+    height: 30px;
+    border-radius: 4px;
+    display: block;
+    border: 2px solid rgb(41, 39, 39);
+}
+    .click{
+        font-size: small;
+        color: rgb(124, 120, 120);
+        margin-top: 0;
+    }
+    .agree{
+        background-color: rgb(62, 138, 243);
+        color: white;
+        font-size: larger;
+        border-radius: 20px;
+        width: 250px;
+        height: 40px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .bar-cat{
+        width: 50px;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+    .happen{
+        height: 30px;
+        width: 200px;
+        padding-left: 10px;
+        font-size: larger;
+        vertical-align: middle;
+        border: none;
+    }
+    .tweet-button{
+        color: white;
+        font-size: larger;
+        background-color: rgb(82, 143, 227);
+        border: none;
+        width: 100px;
+        height: 35px;
+        border-radius: 18px;
+        vertical-align: middle;
+        margin-left: 30px;
+    }
+    .googlesea{
+        display: block;
+        width: 140px;
+        margin-left: 48%;
+    }
+
+    .urlbar{
+        display: block;
+        width: 500px;
+        padding-left: 20px;
+        font-size: large;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 38%;
+        border: 1px solid grey;
+    }
+
+
+
+    .nam, .mai{
+        display: block;
+    }
+   .thanks, .yes, .no{
+    display: inline-block;
+   }
+
+   .reride{
+    display: block;
+    font-size: 30px;
+}
+.loca, .dest{
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+.reqn{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 15px;
+    border: none;
+    border-radius: 4px;
+}
+.schl{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(230, 230, 230);
+    display: inline-block;
+    border: none;
+    color: rgb(96, 96, 96);
+    border-radius: 4px;
+}
+
+
+
+
+
+.fname, .lname{
+    display: inline-block;
+    padding-left: 10px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}   
+.fnemail{
+    display: block;
+    padding-left: 10px;
+    width: 318px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+.siup{
+    width: 328px;
+    height: 50px;
+    background-color: rgb(69, 111, 236);
+    color: white;
+    font-size: larger;
+    font: bolder;
+    border-radius: 5px;
+    border: 1px lightblue;
+}
+.redsquare{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}
+.greencircl{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    border-radius: 50%;
+}
+.install{
+    color: white;
+    font-size: larger;
+    font: bold;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: arial;
+}
+.addy{
+    color: grey;
+    font-size: medium;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-family: arial;
+}
+.ymusic{
+    width: 300px;
+    background-color: rgb(37, 36, 36);
+    
+
+}
+.servic{
+    width: 250px;
+    border: 1px solid rgb(182, 181, 181);
+    font-family: arial;
+    padding: 10px;
+}
+.serv{
+display: block;
+}  
+.servyes, .servno{
+display: inline-block;
+}
+.cat-search{
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 7px;
+    box-shadow:  2px 2px 2px 3px rgb(195, 192, 192);
+}
+
+.cat-box{
+    display: block;
+    width: 160px;
+    background-color: rgb(240, 239, 239);
+    box-shadow:  2px 2px 2px 3px rgb(195, 192, 192);
+    border-radius: 6px;
+}
+.catin{
+    width: 160px;
+}
+.oliv{
+    margin-bottom: 0;
+    margin-top: 2px;
+    margin-left: 8px;
+
+}
+.mutu{
+    color: rgb(149, 147, 147);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.addf{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(66, 91, 255);
+    color: white;
+    font: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+
+
+.multiple{
+    display: inline-block;
+    width: 160px;
+    background-color: rgb(240, 239, 239);
+    box-shadow:  2px 2px 2px 3px rgb(195, 192, 192);
+    border-radius: 6px;
+   }
+   .multiple1{
+    display: inline-block;
+    width: 160px;
+    background-color: rgb(240, 239, 239);
+    box-shadow:  2px 2px 2px 3px rgb(195, 192, 192);
+    border-radius: 6px;
+    margin-left: 15px;
+   }
+   .multiple2{
+    display: inline-block;
+    width: 160px;
+    background-color: rgb(240, 239, 239);
+    box-shadow:  2px 2px 2px 3px rgb(195, 192, 192);
+    border-radius: 6px;
+    margin-left: 15px;
+   }
+   .catinb{
+    width: 160px;
+}
+.olive{
+    margin-bottom: 0;
+    margin-top: 2px;
+    margin-left: 8px;
+}
+.mutua{
+    color: rgb(149, 147, 147);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.addfr{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(66, 91, 255);
+    color: white;
+    font: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+
+.gooima{
+    text-align: center;
+  }
+  .seabarrr{
+    text-align: center;
+  }
+  .seabarr{
+        width: 500px;
+        padding-left: 20px;
+        font-size: large;
+        height: 50px;
+        border-radius: 50px;
+        border: 1px solid grey;
+        text-align: center;
+        font-family: arial;
+  }
+.goofee{
+    margin-top: 20px;
+    text-align: center;
+}
+
+  .ggse{
+        width: 200px;
+        font-size: large;
+        height: 50px;
+        border-radius: 5px;
+        background-color:  rgb(218, 214, 214);
+        font-family: arial;
+        border: none;
+        font:bolder; 
+        margin-right: 5px;
+    }
+    .imfl{
+        width: 200px;
+        font-size: large;
+        height: 50px;
+        border-radius: 5px;
+        background-color:   rgb(218, 214, 214);
+        font-family: arial;
+        border: none;
+        font:bolder;
+        margin-left: 5px;
+    }
+    .fgridtest{
+        display: grid;
+        grid-template-columns: 200px 75px;
+     }
+       .fgridtest2{
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+       }  
+    
+       .fgridtest3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 20px;
+       }
+    
+       .rowcheck{
+        display: grid;
+        grid-template-rows: 100px 150px 200px;
+        row-gap: 20px
+        ;
+       }
+
+       .b-right{
+        background-color: black;
+        color: white;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        height: 10px;
+        font-size: larger;
+        padding: 20px;
+
+    }
+
+
+    /* ................................?. */
+    smallbody{
+        /* background-color: rgba(0, 0, 0, 0.8); */
+    }
+    .right-sidebar{
+        position: fixed;
+        top: 0;
+        right: 10px;
+        background-color: darkgreen;
+        height: 2000px;
+        color: white;
+    }
+    .modall{
+        width: 500px;
+        display: flex;
+        display: block;
+        background-color: bisque;
+    }
+    .p10, .p11{
+        text-align: center;
+        font-family: 'roboto';
+
+    }
+    .p10{
+        font-size: larger;
+    }
+    .clos{
+        display: flex;
+        display: inline-block;
+        
+    }
